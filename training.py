@@ -7,6 +7,9 @@
 # for n in list(range(0, i, 2)):
 #     print(n, end=' \n')
 
+def text():
+    print('Hello')
+text()
 
 # num = int(input("Enter a number: "))
 # if num > 0:

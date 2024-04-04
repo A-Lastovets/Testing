@@ -1,3 +1,5 @@
+
+
 # i = int(input('Enter number: '))
 # while i % 2 == 0:
 #         print(i)
@@ -7,9 +9,14 @@
 # for n in list(range(0, i, 2)):
 #     print(n, end=' \n')
 
-def text():
-    print('Hello')
-text()
+list1 = [1, 2, 3, 4, ['a', 'b', 'c', 'd'], 5, 6, 7]
+print(list1[4][3])
+
+def say(message, times=1):
+    print(message * times)
+
+say('Привіт '+' Світ' * 5) 
+
 
 # num = int(input("Enter a number: "))
 # if num > 0:

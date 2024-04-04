@@ -9,6 +9,9 @@
 # for n in list(range(0, i, 2)):
 #     print(n, end=' \n')
 
+list2 = {'name': 'Vasya', 'second_name': 'petrovich'}
+print(list2['name'])
+
 list1 = [1, 2, 3, 4, ['a', 'b', 'c', 'd'], 5, 6, 7]
 print(list1[4][3])
 

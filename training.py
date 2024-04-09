@@ -49,8 +49,11 @@
 #         return string
 #     format_string(string, length)
 
-
-
+# alphabet = "abcdefghiaklmaopqratuvwxyz"
+# for char in alphabet:
+#     if char == "a":
+#         continue
+#     print(char, end=" ")
 
 
 # i = int(input('Enter number: '))

@@ -1,12 +1,12 @@
 print("hi my friend")
-# string = 'Hello World!'
-# length = 15
-# def format_string(string, length):
-#     if len(string) >= length: return string
-#     elif len(string) < length:
-#         string = " " * ((length - len(string)) // 2)
-#         return string
-# print(string)
+string = 'Hello World!'
+length = 15
+def format_string(string, length):
+    if len(string) >= length: return string
+    elif len(string) < length:
+        string = " " * ((length - len(string)) // 2)
+        return string
+print(string)
 
 # balance = 0.7 + 0.6
 # print('result1:', balance)

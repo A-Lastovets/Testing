@@ -23,12 +23,15 @@
 #     print(f"{age} is not a number")
 # age_user()
 
-my_list = [1, 2, 3, 4, 5]
-second = my_list
-second.pop(0)
-second.insert(0, 2)
-print(second)
-print(set(my_list))
+# my_list = [1, 2, 3, 4, 5]
+# second = my_list
+# second.pop(0)
+# second.insert(0, 2)
+# print(second)
+# print(set(my_list))
+
+my_list = [1, 3, 3, 4, 10, 5, 6, 1, 5, 6, 9, 10]
+print(len(set(my_list)))
 
 # s = '\nHello World'
 # i = 0

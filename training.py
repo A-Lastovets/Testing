@@ -57,11 +57,6 @@
 
 
 # i = int(input('Enter number: '))
-# while i % 2 == 0:
-#         print(i)
-#         i -= 1
-
-# i = int(input('Enter number: '))
 # for n in list(range(0, i, 2)):
 #     print(n, end=' \n')
 

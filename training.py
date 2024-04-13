@@ -1,4 +1,4 @@
-
+print("hi my friend")
 # string = 'Hello World!'
 # length = 15
 # def format_string(string, length):

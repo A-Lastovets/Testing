@@ -19,3 +19,14 @@
 
 # for index, value in enumerate(prices):
 #     print(index, value)
+
+list1 = list("hello")
+for i in range(len(list1)):
+    print(f"{i} : {list1[i]}")
+#----------------------------------------------------
+s = '\nHello World'
+i = 0
+while i < len(s):
+    print(s[i:i + 1], '', end= '')
+    i += 1
+#----------------------------------------------------

@@ -1,9 +1,13 @@
-fruits = ["banana", "orange", "apple"]
-prices = [10, 20, 30]
+# fruits = ["banana", "orange", "apple"]
+# prices = [10, 20, 30]
 
-for name in fruits:
-    for cost in prices:
-        print(name + ':', cost)
+# for value in range(len(fruits)):
+#     print(fruits[value],":", prices[value])
+    
+# count = 0
+# for i in fruits:
+#     print(i,":", count)
+#     count += 1
 
 # for name, cost in zip(fruits, prices):
 #     print(name + ':', cost)

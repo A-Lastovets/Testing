@@ -30,8 +30,16 @@
 # print(second)
 # print(set(my_list))
 
-my_list = [1, 3, 3, 4, 10, 5, 6, 1, 5, 6, 9, 10]
-print(len(set(my_list)))
+# my_list = [1, 3, 3, 4, 10, 5, 6, 1, 5, 6, 9, 10]
+# print(len(set(my_list)))
+
+# my_list1 = [1, 3, 3, 4, 10, 5, 6, 1, 5, 6, 9, 10]
+# my_list2 = []
+# for i in my_list1:
+#     if i not in my_list2:
+#         my_list2.append(i)
+# print(my_list2)
+
 
 # s = '\nHello World'
 # i = 0

@@ -1,19 +1,19 @@
-# fruits = {
-#     1: "apple", 
-#     2: "banana",
-#     3: "orange"
-#     }
-# print(input(f"Please choise one fruit : {1} - apple, {2} - banana, {3} - orange : \n"))
+fruits = {
+    1: "apple", 
+    2: "banana",
+    3: "orange"
+    }
+print(input(f"Please choise one fruit : {1} - apple, {2} - banana, {3} - orange : \n"))
 
-# match fruits:
-#     case "apple" if fruits == 1:
-#         print("This is an apple.")
-#     case "banana" if {2}:
-#         print("This is a banana.")
-#     case "orange" if {3}:
-#         print("This is an orange.")
-#     case _:
-#         print("Unknown fruit.")
+match fruits:
+    case "apple" if fruits == 1:
+        print("This is an apple.")
+    case "banana" if {2}:
+        print("This is a banana.")
+    case "orange" if {3}:
+        print("This is an orange.")
+    case _:
+        print("Unknown fruit.")
 # #----------------------------------------------------------------------------------------------------
 # import random
  
@@ -70,18 +70,18 @@
 # print(add(3, 4))
 # # print(add(3, 4, 5))  #  TypeError: add() takes 2 positional arguments but 3 were given
 #--------------------------------------------------------------------------------------
-def sum_af_all_numbers(*numbers):
-    sum = 0
-    for value in numbers:
-        try:
-            sum += float(value)
-        except TypeError:
-            continue
-        except ValueError:
-            continue
-    return sum
+# def sum_af_all_numbers(*numbers):
+#     sum = 0
+#     for value in numbers:
+#         try:
+#             sum += float(value)
+#         except TypeError:
+#             continue
+#         except ValueError:
+#             continue
+#     return sum
 
-print(sum_af_all_numbers(1,2,3,4,5,6,7,8))
+# print(sum_af_all_numbers(1,2,3,4,5,6,7,8))
 #--------------------------------------------------------------------------------------------
 
 # def sum_af_all_numbers(*numbers):

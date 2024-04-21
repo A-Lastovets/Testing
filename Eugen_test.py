@@ -1,3 +1,19 @@
+def bot_func(us_list: list, data_type):
+
+    new_list = []
+    for element in us_list:
+
+        if not isinstance(element, data_type):
+            new_list.append(element)
+            
+    return new_list
+
+#y_list = ["senior", "11","switcher", 11, "name", 123]
+
+
+print(bot_func(["senior", "switcher", 1, "name", "1", "hello"], str))
+
+    
 # my_str = "How can mirrors be real if our eyes aren’t real" 
 # a = "t" 
 # b = "real"
